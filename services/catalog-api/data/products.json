@@ -1,0 +1,76 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Smartphone Galaxy X",
+      "description": "Smartphone de última geração com câmera de 108MP, tela AMOLED 6.7\" e bateria de longa duração.",
+      "price": 2499.9,
+      "category": "Eletrônicos",
+      "image": "https://via.placeholder.com/400x400?text=Smartphone",
+      "stock": 15
+    },
+    {
+      "id": 2,
+      "name": "Notebook Pro 15",
+      "description": "Notebook profissional com processador Intel i7, 16GB RAM, SSD 512GB. Ideal para trabalho e games.",
+      "price": 4999,
+      "category": "Eletrônicos",
+      "image": "https://via.placeholder.com/400x400?text=Notebook",
+      "stock": 8
+    },
+    {
+      "id": 3,
+      "name": "Fone de Ouvido Bluetooth",
+      "description": "Fone sem fio com cancelamento de ruído ativo, bateria de 30h e som Hi-Fi.",
+      "price": 399.9,
+      "category": "Eletrônicos",
+      "image": "https://via.placeholder.com/400x400?text=Fone",
+      "stock": 25
+    },
+    {
+      "id": 4,
+      "name": "Camiseta Premium",
+      "description": "Camiseta 100% algodão com corte moderno e alta qualidade. Disponível em várias cores.",
+      "price": 89.9,
+      "category": "Roupas",
+      "image": "https://via.placeholder.com/400x400?text=Camiseta",
+      "stock": 50
+    },
+    {
+      "id": 5,
+      "name": "Tênis Esportivo Pro",
+      "description": "Tênis para corrida com tecnologia de amortecimento avançada e design ergonômico.",
+      "price": 299.9,
+      "category": "Roupas",
+      "image": "https://via.placeholder.com/400x400?text=Tenis",
+      "stock": 20
+    },
+    {
+      "id": 6,
+      "name": "Livro: Programação Web Moderna",
+      "description": "Guia completo sobre desenvolvimento web com React, Node.js e APIs REST.",
+      "price": 79.9,
+      "category": "Livros",
+      "image": "https://via.placeholder.com/400x400?text=Livro",
+      "stock": 30
+    },
+    {
+      "id": 7,
+      "name": "Mouse Gamer RGB",
+      "description": "Mouse óptico com 7 botões programáveis, DPI ajustável até 16.000 e iluminação RGB.",
+      "price": 199.9,
+      "category": "Eletrônicos",
+      "image": "https://via.placeholder.com/400x400?text=Mouse",
+      "stock": 18
+    },
+    {
+      "id": 8,
+      "name": "Mochila Executiva",
+      "description": "Mochila com compartimento para notebook 15\", tecido impermeável e design elegante.",
+      "price": 179.9,
+      "category": "Acessórios",
+      "image": "https://via.placeholder.com/400x400?text=Mochila",
+      "stock": 12
+    }
+  ]
+}

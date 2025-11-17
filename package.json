@@ -1,0 +1,15 @@
+{
+  "name": "ecommerce-monorepo",
+  "version": "1.0.0",
+  "description": "E-commerce with React frontend and two independent APIs",
+  "scripts": {
+    "install:all": "cd services/catalog-api && npm install && cd ../bag-api && npm install && cd ../../frontend && npm install",
+    "start:catalog": "cd services/catalog-api && npm start",
+    "start:bag": "cd services/bag-api && npm start",
+    "start:frontend": "cd frontend && npm run dev",
+    "start:all": "concurrently \"npm run start:catalog\" \"npm run start:bag\" \"npm run start:frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
