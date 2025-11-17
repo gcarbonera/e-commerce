@@ -14,7 +14,6 @@ Sistema completo de e-commerce com frontend React e duas APIs REST independentes
 - [Tecnologias e Bibliotecas](#tecnologias-e-bibliotecas)
 - [Instalação](#instalação)
 - [Como Rodar](#como-rodar)
-- [Deploy no Render](#deploy-no-render)
 - [Portas e URLs](#portas-e-urls)
 - [Rotas e Exemplos](#rotas-e-exemplos)
 - [Fluxo da Aplicação](#fluxo-da-aplicação)
@@ -154,51 +153,7 @@ npm run dev
 
 ---
 
-## 🚀 Deploy no Render
-
-Este projeto está pronto para deploy na plataforma Render (PaaS gratuito).
-
-### Documentação de Deploy
-
-- 📘 **[DEPLOY_RENDER.md](./DEPLOY_RENDER.md)** - Guia completo passo a passo
-- ⚡ **[QUICKSTART_DEPLOY.md](./QUICKSTART_DEPLOY.md)** - Comandos rápidos
-- ✅ **[DEPLOY_STATUS.md](./DEPLOY_STATUS.md)** - Status e checklist
-
-### Deploy Rápido
-
-```powershell
-# 1. Testar build localmente
-cd frontend
-npm run build
-
-# 2. Inicializar Git
-git init
-git add .
-git commit -m "feat: prepare for deploy"
-
-# 3. Enviar para GitHub
-git remote add origin https://github.com/SEU_USUARIO/REPO.git
-git push -u origin main
-
-# 4. Deploy no Render
-# Acesse: https://dashboard.render.com/select-repo?type=static
-# Configure: Root Directory = frontend
-#            Build Command = npm install && npm run build
-#            Publish Directory = frontend/dist
-```
-
-### Arquivos de Configuração
-
-- ✅ `render.yaml` - Deploy automático dos 3 serviços
-- ✅ `frontend/public/_redirects` - React Router em produção
-- ✅ `.gitignore` - Ignorar node_modules e build
-- ✅ `vite.config.js` - Build otimizado
-
----
-
 ## 🌐 Portas e URLs
-
-### Desenvolvimento Local
 
 | Serviço | Porta | URL | Descrição |
 |---------|-------|-----|-----------|
@@ -207,13 +162,6 @@ git push -u origin main
 | **Swagger Catálogo** | 3001 | http://localhost:3001/api-docs | Documentação interativa |
 | **API Sacola** | 3002 | http://localhost:3002 | API REST de carrinho |
 | **Swagger Sacola** | 3002 | http://localhost:3002/api-docs | Documentação interativa |
-
-### Produção (Render)
-
-Após deploy, você terá URLs públicas:
-- Frontend: `https://ecommerce-frontend-XXXX.onrender.com`
-- API Catálogo: `https://ecommerce-catalog-api-XXXX.onrender.com`
-- API Sacola: `https://ecommerce-bag-api-XXXX.onrender.com`
 
 ---
 
